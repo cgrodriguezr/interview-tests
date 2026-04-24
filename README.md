@@ -64,4 +64,3 @@ mvn test -Dtest=AeroplaneTest#shouldAddPassengerOnEnter
 > **Note:** We do not provide support for local environment setup. Any software you install is at your own discretion — please source tools from their official websites and review any licence terms before installing.
 
 If you want an IDE, IntelliJ IDEA (Community Edition) and VS Code with the Java Extension Pack are commonly used free options.
-

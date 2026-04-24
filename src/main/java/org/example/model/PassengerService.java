@@ -8,21 +8,33 @@ public class PassengerService {
     public List<Passenger> filterPassengersByType(List<Passenger> people, PassengerType... passengerType)
     {
         throw new UnsupportedOperationException ("Implement function that filters passengers by given types");
+        // 1. Create a stream from the list of passengers
+        // 2. Use the filter method to keep only passengers whose type matches any of the given passenger types
+        // 3. Collect the filtered passengers into a list
+        // 4. Return the list of filtered passengers
     }
 
     public List<Passenger> filterPassengersByFareAsInt(List<Passenger> people, int fareTo)
     {
         throw new UnsupportedOperationException ("Implement function that filters passengers with a fare price less than or equal to fareTo");
+        // 1. Create a stream from the list of passengers
+        // 2. Use the filter method to keep only passengers whose fare price is less than or equal to fareTo
+        // 3. Collect the filtered passengers into a list
+        // 4. Return the list of filtered passengers
+
     }
 
     public Passenger upgradeToFirstClass(Passenger passenger)
     {
         throw new UnsupportedOperationException ("Implement function that returns a new passenger with upgraded type to FIRST_CLASS");
+        // 1. Create a new Passenger object with the same properties as the input passenger, but with the type set to FIRST_CLASS
+        // 2. Return the new Passenger object
     }
 
     public Double computeTotalCost(Passenger passenger)
     {
         throw new UnsupportedOperationException ("Implement function that returns total cost of passenger (fare price + (5 * luggage count))");
+        
     }
 
     public List<Passenger> filterByType(List<Passenger> passengers, PassengerType... passengerType)
@@ -56,3 +68,4 @@ public class PassengerService {
         throw new UnsupportedOperationException ("Implement function that returns passenger id with lowest seat number");
     }
 }
+ 
